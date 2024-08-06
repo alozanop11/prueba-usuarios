@@ -15,7 +15,7 @@ const getAll = async () => {
     json.forEach((el) => {
       $template.querySelector(".name").textContent = el.name;
       $template.querySelector(".email").textContent = el.email;
-      $template.querySelector(".dir").textContent = $el.address.city;
+      $template.querySelector(".dir").textContent = el.address.city;
       let $clone = d.importNode($template, true);
       $fragment.appendChild($clone);
     });
