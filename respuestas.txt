@@ -1,0 +1,15 @@
+1)**Explicar con sus propias palabras, ¿qué es un API REST?**
+
+Una Api Rest es una interfaz de comunicación entre el Frontend y Backend.
+El Frontend realiza solicitudes para obtener datos mientras que el Backend
+proporciona o procesa esa información segun la solicitud que realiza el 
+Frontend.
+
+1)**Explicar con sus propias palabras, ¿cómo interactúan las herramientas, 
+HTML, PHP y JavaScript en un proyecto web?**
+
+Podemos hablar de una arquitectura MVC (Modelo, Vista, Controlador)
+En el cual Html son todas las vistas de la aplicación, ademas con 
+javascript podemor realizar solicitudes al controlador y este a su vez
+realiza la lógica correspondiente utilizando PHP para realizar solicitudes
+al modelo en el cual se realizan las conexiones a la base de datos.
